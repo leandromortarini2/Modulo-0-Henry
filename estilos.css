@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/fondo.jpg);
+}
+#container1,
+#container2,
+#container3,
+#container4,
+#container5,
+#container6,
+#container7 {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* <!-- CONTENEDOR 1 -->
+    <!-- CONTENEDOR 1 -->
+    <!-- CONTENEDOR 1 --> */
+#container1 {
+  background-color: rgba(0, 0, 0, 0.825);
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+}
+#container1 h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 60px;
+}
+#container1 p {
+  color: rgb(158, 151, 151);
+  font-size: 18px;
+}
+#container1 p span {
+  color: yellowgreen;
+  font-weight: 600;
+}
+/*<!-- CONTENEDOR 2 -->
+  <!-- CONTENEDOR 2 -->
+  <!-- CONTENEDOR 2 --> */
+#container2 {
+  background-color: yellowgreen;
+  width: 1200px;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+#container2 ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+#container2 ul li {
+  list-style: none;
+}
+#container2 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 60px;
+}
+#container2 ul li a:hover {
+  color: green;
+  font-weight: 600;
+  transition: 1s;
+}
+/* <!-- CONTENEDOR 3 -->
+    <!-- CONTENEDOR 3 -->
+    <!-- CONTENEDOR 3 --> */
+#container3 {
+  background-color: rgba(180, 214, 113, 0.617);
+  width: 1200px;
+  height: 300px;
+  border-bottom: 3px solid yellowgreen;
+}
+#container3 h2 {
+  color: rgb(40, 39, 39);
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 60px;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+#container3 li {
+  color: rgb(40, 39, 39);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 60px;
+  position: relative;
+  top: 70px;
+  left: 250px;
+}
+/*     <!-- CONTENEDOR 4 -->
+    <!-- CONTENEDOR 4 -->
+    <!-- CONTENEDOR 4 --> */
+#container4 {
+  background-color: rgba(180, 214, 113, 0.617);
+  width: 1200px;
+  height: 300px;
+  border-bottom: 3px solid yellowgreen;
+}
+#container4 h2 {
+  color: rgb(40, 39, 39);
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 60px;
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+#container4 li {
+  color: rgb(40, 39, 39);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 60px;
+  position: relative;
+  top: 50px;
+  left: 250px;
+}
+/*     <!-- CONTENEDOR 5 -->
+    <!-- CONTENEDOR 5 -->
+    <!-- CONTENEDOR 5 --> */
+#container5 {
+  background-color: rgba(180, 214, 113, 0.617);
+  width: 1200px;
+  height: 300px;
+  border-bottom: 3px solid yellowgreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#container5 h2 {
+  color: rgb(40, 39, 39);
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 60px;
+  position: relative;
+  top: 40px;
+}
+#container5 li {
+  color: rgb(40, 39, 39);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 60px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+/*     <!-- CONTENEDOR 6 -->
+    <!-- CONTENEDOR 6 -->
+    <!-- CONTENEDOR 6 --> */
+#container6 {
+  background-color: rgba(180, 214, 113, 0.617);
+  width: 1200px;
+  height: 300px;
+}
+#container6 h2 {
+  color: rgb(40, 39, 39);
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 60px;
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+#container6 p {
+  color: rgb(40, 39, 39);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 60px;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+#container6 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  position: relative;
+  top: 50px;
+  left: 200px;
+  margin: 0 20px;
+  opacity: 0.6;
+}
+/*     <!-- PIE DE PAGINA -->
+    <!-- PIE DE PAGINA --> */
+footer {
+  background-color: yellowgreen;
+  height: 50px;
+  text-align: center;
+}
+footer p {
+  line-height: 50px;
+  font-weight: 600;
+}
